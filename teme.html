@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Teme</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel = "icon" href =  "icon50x50.png" type = "image/x-icon"> 
+	<script src="java.js"></script>
+<meta charset="UTF-8">
+ </head>
+	<body>
+	<div id="div1">
+<button type="button" class="buttont1"><a href="acasa.html" class="nounderline">Acasa </a></button>
+<button type="menu" class="buttont5" onmouseover="Dropdwn()" onmouseout="Dropdwn2()">Proiecte &#9660</button>
+<div id="dropdwn" onmouseover="Dropdwn()" onmouseout="Dropdwn2()">
+    <div id="dropdwn_content">
+        <button type="button" class="buttontdwn"><a href="teme.html" class="nounderline">Teme</a></button>
+        <button type="button" class="buttontdwn"><a href="animatie.html" class="nounderline">Animatie</a></button>
+		<button type="button" class="buttontdwn"><a href="slide.html" class="nounderline">Slideshow</a></button>
+		<button type="button" class="buttontdwn"><a href="convertor.html" class="nounderline">Convertor</a></button>
+    </div> 
+</div>
+<button type="button" class="buttont2" onclick="rBtn()">Register</button>
+<button type="button" class="buttont2" onclick="myShow()">Login</button>
+<div id="lf">
+	<form name="lform" onsubmit="vForm()" action="acasa.html">
+	<label for="uname" class="llabel"><b>Username</b></label><br>
+	<br>
+	<input type="text" name="uname" id="linputt" required placeholder="Username" required>
+	<br>
+	<label for="pwd" class="llabel"><b>Parola</b></label>
+	<br><input type="password" name="pwd" id="linputp" required placeholder="Parola" required>
+	<button type="submit" class="buttont4">Login</button>
+	<button type="button" class="buttontc2" onclick="CBtn()">Cancel</button>
+	<br><br><input type="checkbox" checked><b>Tine-ma minte</b></input>
+	</label>
+	</form>
+	</div>
+
+
+</form>
+</div>
+<div id="rcontainer">
+    <form action="acasa.html">
+        <label for="Nume" class="rlabel">Nume</label><br>
+            <br><input type="text" name="Nume" class="rinput" required>
+        <label for="Prenume" class="rlabel">Prenume</label><br>
+            <br><input type="text" name="Prenume" class="rinput" required>
+        <label for="username" class="rlabel">Username</label><br>
+            <br><input type="text" name="username" class="rinput" required ><br>
+        <label for="Email" class="rlabel">Email</label><br>
+            <br><input type="text" name="Email" class="rinput" required>
+        <label for="Passworld" class="rlabel">Passworld</label><br>
+            <br><input type="password" name="pwd" class="rinput" required><br>
+            <br><button type="submit" class="buttont4">Register</button>
+            <button type="button" class="buttontc2" onclick="cBtn2()">Cancel</button>
+    </form>
+ </div>
+ <div>
+	 <span>
+		<br><a href="https://www.w3schools.com/html/html_basic.asp" data-tool-tip="W3schools.com"><h1><strong>Tema 1</a></h1></li>
+	
+		<a href="https://www.w3schools.com/html/html_basic.asp" data-tool-tip="W3schools.com"><h3><i>Prima tema: am invatat tot ce e usor.</a></h3>
+	
+<img src="index.png" width=30% height=40% alt="html 5">
+</span>
+<span>
+	<br><a href="https://www.w3schools.com/html/html_images.asp"><h1>Tema 2</h1>
+	
+			</a><h3>Am invatat lucruri mai complicate , cum ar fi:<a href="https://www.w3schools.com/html/html_links.asp" data-tool-tip="W3schools.com">hyperlink </a> ,<a href="https://www.w3schools.com/html/html_images.asp" data-tool-tip="W3schools.com">imagini </a>,<a href="https://www.w3schools.com/html/html_css.asp" data-tool-tip="W3schools.com">css.</a></h3>
+	
+		<img src="indeex.png" widht=30% height=50% alt="css 3">
+	
+				<img src="images1.png" widht=30% height=50% alt="img tag">
+	</span>
+	<span>
+			<h1 id="tema">Tema 3</h1>
+	
+	<h3>Am invat: <a href="https://www.w3schools.com/html/html_tables.asp" data-tool-tip="W3schools.com">tabele </a><a href="https://www.w3schools.com/html/html_lists.asp" data-tool-tip="W3schools.com">,liste.</h3></a>
+	
+				<img src="imageees.png" widht=30% height=50% alt="tabele in html"><img src="images2.png" widht=30% height=50% alt="liste in html">
+	<h1>Tema 4</h1>
+	
+	<h3>Am invatat <a href="https://www.w3schools.com/css/css3_buttons.asp" data-tool-tip="W3schools.com">butoane si putin javascript</a></h3>
+	<img src="js.png" widht=30% height=50% alt="javascript">
+	</span>
+	</div>
+	</body>
+	</html>
